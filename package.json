@@ -1,0 +1,23 @@
+{
+  "name": "xhr",
+  "version": "1.0.0",
+  "description": "* HTML5\r * CSS\r * JQUERY v3.2.1.\r * Eslintrc v4.15.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jymmak/xhr.git"
+  },
+  "author": "Jymma Mogollon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jymmak/xhr/issues"
+  },
+  "homepage": "https://github.com/jymmak/xhr#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
