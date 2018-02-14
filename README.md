@@ -1,16 +1,16 @@
-# 
-
-
-
-
+# XHR PROJECT DEMO
+## Descripción
+* Usar XHR para construir una aplicación.
+* Para este ejercicio debemos hacer una petición a la página del NY Times y que con la respuesta podamos ocupar sus noticias.
 
 ##  Recursos utilizados
 
 * HTML5
 * CSS
-* JQUERY v3.2.1.
-* Eslintrc v4.15.0
-
+* JQUERY
+* Eslintrc 
+* Bootstrap
+* API NY Times 
 
 
 ## Autor
@@ -19,16 +19,15 @@
 
 ## Archivos utilizados
 
-* README.md con descripción de la librería, instrucciones de instalación, uso y documentación del API.
-* index.js: Librería debe exportar una función u objeto al entorno global (window) y hacer uso de features de ES6.
-* index.html: Página web de la librería.
+* README.md con descripción del proyecto con la  API NY Times.
+* index.html: Página web.
 * .eslintrc con configuración para linter.
 * .gitignore para ignorar node_modules u otras carpetas que no deban incluirse en control de versiones.
 * package.json con nombre, versión, descripción, autores, licencia, dependencias, scripts (pretest, test, ...)
 
 ## Producto
 
-![](assets/images/.png)
+![](public/assets/images/one.png)
 
 ## Licencia
 

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>lookFor</title>
+  <title>Haciendo solicitudes asíncronas</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
@@ -14,28 +14,23 @@
 
 <body>
 
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <span class="text-principal">lookFor</span>
+  <header class="masthead  text-center container-fluid">
+    <h1>¿Qué te interesa hoy?</h1>
+    <div class="site-container">
+      <form action="" id="search-form">
+        <label for="search-keyword" class="visuallyhidden">¿Qué buscamos?</label>
+        <input type="text" id="search-keyword" name="search-keyword" placeholder="e.g.android" required class="form-control">
+        <div>
+          <button id="btn-xhr" class="btn btn-primary">XHR</button>
+          <button id="btn-fetch" class="btn btn-primary">Fetch</button>
         </div>
-        <!-- /.container-fluid -->
-      </nav>
+      </form>
 
-
-
-
-
-
-
-  <footer class="footer">
-    <div class="container-fluid text-center">
-      <div class="row">
-        <div class="col-md-6 col-lg-offset-3">
-          <span class="copyright">Copyright &copy Jymma Mogollon- 2018</span>
-        </div>
-      </div>
     </div>
-  </footer>
+  </header>
+  <div class="site-container">
+    <div id="response-container" class=""></div>
+  </div>
 
 
 
